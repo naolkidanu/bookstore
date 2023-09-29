@@ -1,9 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const Categories = () => {
-  const handleClick = () => {
-    alert("Page Under Construction");
-  };
+  const handleClick = () => 'Page Under Construction';
 
   return (
     <div>

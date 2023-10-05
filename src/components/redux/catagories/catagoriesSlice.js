@@ -14,7 +14,7 @@ export const categoriesSlice = createSlice({
   },
 });
 
-export const selectStatus = (state) => 'Under construction';
+export const selectStatus = () => 'Under construction';
 
 export const { addCategory } = categoriesSlice.actions;
 

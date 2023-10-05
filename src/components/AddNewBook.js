@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { useDispatch } from "react-redux";
-import { v4 as uuidv4 } from "uuid";
-import { addBook } from "./redux/books/bookSlice";
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
+import { addBook } from './redux/books/bookSlice';
 
 const AddNewBook = () => {
   const dispatch = useDispatch();
-  const [title, setTitle] = useState("");
-  const [author, setAuthor] = useState("");
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,8 +16,8 @@ const AddNewBook = () => {
       author,
     };
     dispatch(addBook(newBook));
-    setTitle("");
-    setAuthor("");
+    setTitle('');
+    setAuthor('');
   };
 
   return (

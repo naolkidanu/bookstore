@@ -1,6 +1,6 @@
-import React from "react";
-import { useSelector } from "react-redux/es/hooks/useSelector";
-import { selectStatus } from "./redux/catagories/catagoriesSlice";
+import React from 'react';
+import { useSelector } from 'react-redux/es/hooks/useSelector';
+import { selectStatus } from './redux/catagories/catagoriesSlice';
 
 const Categories = () => {
   const status = useSelector(selectStatus);

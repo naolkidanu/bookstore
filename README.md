@@ -85,21 +85,7 @@ To run the project, execute the following command:
   npm start
 ```
 
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm jest
-```
-
-### Deployment
-
-You can deploy this project using: GitHub but if you want to deploy make sure you let me know first :3
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-> Mention all of the collaborators of this project.
 
 👤 **Naol Kidanu Merdasa**
 

@@ -42,6 +42,15 @@ export const addBookAsync = createAsyncThunk(
   }
 );
 
+export const removeBookAsync = createAsyncThunk(
+  "books/removeBook",
+  async (item_Id) => {
+    const deleteUrl = `${API_URL}/${item_Id}`;
+    await axios.delete(deleteUrl);
+    return item_Id;
+  }
+);
+
 export const { addBook, removeBook } = bookSlice.actions;
 
 export default bookSlice.reducer;

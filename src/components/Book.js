@@ -1,13 +1,13 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeBook } from './redux/books/bookSlice';
+import { removeBookAsync } from './redux/books/bookSlice';
 
 const Book = () => {
   const books = useSelector((state) => state.book.books);
   const dispatch = useDispatch();
 
   const handleRemoveBook = (bookId) => {
-    dispatch(removeBook(bookId));
+    dispatch(removeBookAsync(bookId));
   };
 
   return (

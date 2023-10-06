@@ -27,6 +27,18 @@ const initialState = {
   ],
 };
 
+export const fetchBooksAsync = createAsyncThunk(
+  "books/fetchBooks",
+  async () => {
+    const response = await axios.get(API_URL);
+    const booksArray = Object.keys(response.data).map((itemKey) => ({
+      item_id: itemKey,
+      ...response.data[itemKey][0],
+    }));
+    return booksArray;
+  }
+);
+
 export const bookSlice = createSlice({
   name: "books",
   initialState,

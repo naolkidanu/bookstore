@@ -40,7 +40,7 @@ const AddNewBook = () => {
         category: "Fiction",
       });
     } catch (error) {
-      return "Error adding book:", error;
+      alert("Error adding book:", error);
     }
   };
 

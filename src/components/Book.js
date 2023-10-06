@@ -1,6 +1,6 @@
-import React from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { removeBookAsync } from "./redux/books/bookSlice";
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { removeBookAsync } from './redux/books/bookSlice';
 
 const Book = () => {
   const books = useSelector((state) => Object.values(state.book.books).flat());

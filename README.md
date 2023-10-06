@@ -41,9 +41,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **N/A**
-- **N/A**
-- **N/A**
+- **Initialize book list**
+- **Add list of books**
+- **Remove from the list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,8 +98,6 @@ To run tests, run the following command:
 You can deploy this project using: GitHub but if you want to deploy make sure you let me know first :3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 

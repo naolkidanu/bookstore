@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addBookAsync } from "./redux/books/bookSlice";
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { addBookAsync } from './redux/books/bookSlice';
 
 const AddNewBook = () => {
   const dispatch = useDispatch();
   const books = useSelector((state) => state.book.books);
 
   const [formData, setFormData] = useState({
-    title: "",
-    author: "",
-    category: "Fiction",
+    title: '',
+    author: '',
+    category: 'Fiction',
   });
 
   const getLastItemId = () => {
@@ -35,12 +35,12 @@ const AddNewBook = () => {
     try {
       await dispatch(addBookAsync(newBook));
       setFormData({
-        title: "",
-        author: "",
-        category: "Fiction",
+        title: '',
+        author: '',
+        category: 'Fiction',
       });
     } catch (error) {
-      alert("Error adding book:", error);
+      alert('Error adding book:', error);
     }
   };
 

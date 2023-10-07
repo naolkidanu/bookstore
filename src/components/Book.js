@@ -1,8 +1,8 @@
-import React from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { CircularProgressbar } from "react-circular-progressbar";
-import { removeBookAsync } from "./redux/books/bookSlice";
-import "react-circular-progressbar/dist/styles.css";
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { CircularProgressbar } from 'react-circular-progressbar';
+import { removeBookAsync } from './redux/books/bookSlice';
+import 'react-circular-progressbar/dist/styles.css';
 
 const Book = () => {
   const books = useSelector((state) => Object.values(state.book.books).flat());

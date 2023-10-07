@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import Categories from "./components/Categories";
-import Links from "./components/Links";
-import BooksContainer from "./components/BooksContainer";
-import { fetchBooksAsync } from "./components/redux/books/bookSlice";
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import Categories from './components/Categories';
+import Links from './components/Links';
+import BooksContainer from './components/BooksContainer';
+import { fetchBooksAsync } from './components/redux/books/bookSlice';
 
 const App = () => {
   const dispatch = useDispatch();

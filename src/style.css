@@ -345,6 +345,7 @@ body {
   text-align: center;
   color: #fff;
 }
+
 .addBook__title {
   margin: 1.813rem 32.75rem 1.188rem 0;
   font-size: 1.25rem;
@@ -427,6 +428,7 @@ body {
   color: #ffff;
   background-color: #0290ff;
 }
+
 .checkStatus__container {
   display: flex;
   justify-content: center;

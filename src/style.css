@@ -97,3 +97,17 @@ body {
 }
 
 /* ----------------------NavBar CSS ends here---------------------------------------------------- */
+.wrapper {
+  padding: 0 6.5rem 3rem 6.5rem;
+}
+
+.book__container {
+  width: 100%;
+  height: auto;
+}
+
+.span__line {
+  display: flex;
+  margin-top: 3rem;
+  border: 1px solid #80808082;
+}

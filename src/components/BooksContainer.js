@@ -1,10 +1,10 @@
-import React from 'react';
-import AddNewBook from './AddNewBook';
-import Book from './Book';
+import React from "react";
+import AddNewBook from "./AddNewBook";
+import Book from "./Book";
 
 const BooksContainer = () => (
   <div className="book-container">
-    <Book />
+    <Book key="book-component-key" />
     <AddNewBook />
   </div>
 );

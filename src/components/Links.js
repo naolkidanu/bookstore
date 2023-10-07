@@ -1,7 +1,7 @@
-import { Outlet, Link } from "react-router-dom";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Outlet, Link } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(faUser);
 
@@ -22,7 +22,7 @@ const Links = () => (
           icon={faUser}
           beatFade
           size="sm"
-          style={{ color: "#0290ff" }}
+          style={{ color: '#0290ff' }}
         />
       </span>
     </nav>

@@ -111,3 +111,237 @@ body {
   margin-top: 3rem;
   border: 1px solid #80808082;
 }
+
+.individual__book {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75rem;
+  height: auto;
+  margin: 10px auto;
+  padding: 2rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.first__column {
+  width: 50%;
+}
+
+.book__category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book__title {
+  width: 30rem;
+  height: 1.813rem;
+  margin: 0 20.188rem 0 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.book__author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.2rem 0 1rem;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  color: #4386bf;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.comments {
+  width: 4.563rem;
+  height: 1.188rem;
+  margin: 0.1rem 0.9rem 0.1rem 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  color: #4386bf;
+}
+
+.line__separate {
+  width: 0.1rem;
+  height: 1.5rem;
+  margin-right: 10px;
+  border: solid 1px #faf7f7;
+}
+
+.remove__btn {
+  width: 3.375rem;
+  height: 1.188rem;
+  margin: 0.1rem 0.9rem 0.1rem 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.edit {
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  cursor: pointer;
+}
+
+.oval {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.oval-2 {
+  width: 4.25rem;
+  height: 4.25rem;
+  margin: 10px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent__complete {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.line__separate2 {
+  height: 4.375rem;
+  border: solid 1px #e8e8e8;
+}
+
+.update__chapter {
+  display: flex;
+  flex-direction: column;
+}
+
+.current__chapter {
+  width: 9.875rem;
+  height: 1.125rem;
+  margin: 0.063rem 5.375rem 0 3.688rem;
+  opacity: 0.5;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.current__lesson {
+  width: 6.688rem;
+  height: 1.313rem;
+  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.updateProgress__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #0290ff;
+}
+
+.update__progress {
+  width: 8.938rem;
+  height: 1.125rem;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
